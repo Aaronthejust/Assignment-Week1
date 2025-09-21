@@ -6,8 +6,8 @@
 # No Profit No Loss
 
 #let's put a check so that user do not enter amount less than zero
-cp = 0
-sp = 0
+cp = 0     #cp is cost price
+sp = 0     #sp is selling price
 while cp <= 0 or sp <= 0:
       cp = int(input("Enter the Cost Price: "))
       sp = int(input("Enter the Selling Price: "))
